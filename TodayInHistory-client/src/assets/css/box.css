@@ -1,0 +1,81 @@
+/* pc css. */
+.bd-box {width:100%;overflow:hidden;}
+.bd-row {margin:auto;width:1200px;margin-top:8px;overflow:hidden;}
+.bd-row-left {float:left;width:1200px;overflow:hidden;}
+.bd-row-block,.bd-left-block {width:100%;background:#fff;clear:both;min-height:45px;overflow:hidden;padding-top:5px;}
+.bd-row-content p,.bd-row-block p,.bd-left-block p {line-height:26px;clear:both;padding:2px 5px;}
+.bd-row-right {float:right;width:300px;overflow:hidden;}
+
+.bd-right-block2,.bd-right-block {width:100%;margin-bottom:12px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-color:#fff;padding:0 5px;overflow:hidden;}
+.bd-right-block a {color:#333;display:inline-block;line-height:25px;height:25px;padding:5px;text-decoration:underline;}
+.bd-right-block a:hover {color:#c00;text-decoration:none;}
+
+.bd-right-block2 a {color:#333;display:inline-block;line-height:24px;height:24px;padding:3px;text-decoration:underline;}
+.bd-right-block2 a:hover {color:#c00;text-decoration:none;}
+
+
+.bd-footer-block,.bd-common-block {width:100%;margin-bottom:10px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-color:#fff;padding:0 6px;overflow:hidden;}
+.bd-common-block a {display:inline-block;background-color:#fff;text-align:center;line-height:26px;height:26px;padding:4px 5px;text-decoration:underline;}
+.bd-common-block a.label {width:90px;overflow:hidden;text-align:left;}
+.bd-common-block a:hover {color:#c00;text-decoration:none;}
+.bd-common-block a.active {color:#c00;}
+.bd-common-block span {font-weight:bold;}
+.zaoju-li p {float:left;font-size:16px;color:#333;border-bottom:1px dashed #999;display:inline-block;text-align:left;list-style:none;padding:5px 5px;margin:3px 0;overflow:hidden;clear:both;width:100%;line-height:28px;}
+.zaoju-li p span {color:#999;}
+.zaoju-li p em{color:green;}
+
+.zaoju-14 p{font-size:14px;}
+.zaoju-14 p em{padding-right:5px}
+
+.zuci-li p {float:left;font-size:14px;color:#333;border-bottom:1px dashed #999;display:inline-block;text-align:left;list-style:none;padding:5px 5px;margin:3px 0;overflow:hidden;clear:both;width:100%;line-height:28px;}
+.zuci-li p a:hover {text-decoration:underline;color:#f60;}
+.zuci-li p span {color:#666;}
+.pinyin-li a.hanzi {float:left;width:105px;white-space:nowrap;text-align:left;overflow:hidden;}
+.pinyin-li a.ciyu {float:left;width:120px;white-space:nowrap;text-align:left;text-decoration:none;overflow:hidden;}
+.bd-footer-block a {display:inline-block;background-color:#fff;text-align:center;line-height:20px;height:20px;padding:3px;text-decoration:none;}
+.bd-footer-block a:hover {color:#c00;text-decoration:underline;}
+.bd-right-header {width:100%;overflow:hidden;height:38px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border-bottom:1px solid #e9e9e9;}
+.bd-right-header h2,.bd-right-header h3 {color:#222222;display:inline-block;font-size:16px;line-height:38px;font-weight:bold;width:100%;}
+.bd-right-header h3 a {float: right;display:block;color: #8A8A8D;font-size: 14px;text-align:right;font-weight:normal;min-width:40px;padding-right:5px;overflow:hidden;line-height:38px;}
+
+.bd-right-list {padding:4px 0 2px 0;width:100%;overflow:hidden;}
+.bd-right-list ul li{float: left;width: 50%;height: 26px; line-height: 26px;overflow: hidden;}
+.bd-right-list ul li a {text-decoration:none;overflow:hidden;color:#222222;font-size:14px;height:28px;line-height:28px;white-space:nowrap;}
+.bd-row-content {width:100%;background-color:#ffffff;padding:0 15px;box-sizing:border-box;padding-bottom:0px;border-radius:5px;padding-bottom:10px;margin-top:10px;overflow:hidden;}
+
+.bd-row-tip {width:100%;background-color:#ffffff;padding:8px;box-sizing:border-box;padding-bottom:0px;border-radius:5px;padding-bottom:10px;margin-top:10px;overflow:hidden;color:#999;line-height:24px;font-size:12px;}
+
+.bd-row-content h2,.bd-row-content h3,.bd-row-content h4 {width:100%;border-bottom:1px solid #e2e2e2;line-height:25px;font-size:18px;font-weight:600;padding:10px 0;float:left;box-sizing:border-box;margin-bottom:10px;overflow:hidden;}
+
+.bd-row-content h2::before,.bd-row-content h4::before {display:inline-block;clear:left;content:"";vertical-align:middle;height:19px;width:3px;background-color:#c33;margin-right:8px;}
+
+.bd-row-content ul li {float:left;width:33.3%;line-height:30px;height:30px;overflow:hidden;white-space:nowrap;}
+.bd-row-content ul li a {overflow:hidden;white-space:nowrap;}
+.bd-row-content ul li a:hover {color:#c00;}
+
+.bd-row-content ul.wd-50 li {width:50%;}
+.bd-row-content ul.wd-100 li {width:100%;white-space:nowrap;height:30px;line-height:30px;}
+
+.shici-title{line-height:26px;padding:5px;font-size:30px;margin-top:10px;text-align:center;margin-bottom:10px;}
+.shici-source{color:#666;padding-top:5px;font-size:16px;margin-top:10px;text-align:center;margin-bottom:10px;}
+.shici-yiwen strong{display:block;font-size:16px;clear:both;}
+
+.tag-list a {display:inline-block;margin:0 5px;border-radius:4px;border:1px solid #ccc;background:#f7f7f7;padding:5px 5px;margin:3px;color:#666;}
+.tag-list a:hover {color:#c00;}
+.bd-row-content h2 a,.bd-row-content h3 a,.bd-row-content h4 a{float:right;display:block;height:22px;line-height:22px;color:#8A8A8D;font-size:14px;text-align:right;font-size:14px;font-weight:normal;min-width:40px;padding-right:10px;overflow:hidden;}
+.bd-row-content h2 i a ,.bd-row-content h3 i a,.bd-row-content h4 i a{float:none;display:inline;padding-right:2px;}
+
+.block-img-left {float:left;width:105px;margin-right:10px;overflow:hidden;}
+.block-content-right {float:left;max-width:730px;overflow:hidden;line-height:25px;}
+.block-img-left-2 {float:left;width:150px;margin-right:10px;overflow:hidden;}
+
+/*jieqi*/
+.season_item {width:235px;height:88px;padding:10px 19px;border:1px solid #E9E9E9;float:left;margin:5px;}
+.season_item span {display:block;}
+.season_item span:nth-child(2) {color:#333;font-size:16px;height:20px;line-height:20px;overflow:hidden;margin:12px 0 8px 0;}
+.season_item span:nth-child(3) {color:#333;font-size:14px;height:18px;line-height:18px;overflow:hidden;}
+
+/* �޸��ȸ���չʾ���������� */
+ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}
